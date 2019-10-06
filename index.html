@@ -1,0 +1,154 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<!-- Hero -->
+
+<section id="hero" class="hero u-full-width">
+  
+    <div class="hero-image"></div>
+    <div class="container">
+      <div class="one columns u-pull-right">
+        <h3 class="lunchlogo">Lunchmed.NET</h3>
+      </div>
+    </div>
+    <div class="container centered">
+      <div class="twelve columns">
+        
+        <!-- Add a placeholder for the Twitch embed -->
+      <div id="twitch-embed"></div>
+        <!-- <h1 class="separator">Lunchmed.NET</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Aenean commodo ligula eget dolor. Aenean massa.</h2> -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- Introduction -->
+  
+  <section data-sr id="introduction" class="introduction u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator">Vad är det här?</h3>
+          <h4>Lunchmed.NET är en fokus på glädjen i kodandet. En jakt efter vad som gjorde att du började med BASIC när du var 12. En uppiggande paus på lunchen.</h4>
+        <p>Varje tisdag lunch sänder jag strax under en timmes kod. Missa det inte, kom igen, det blir kul[tm]!</p>
+         
+        {% post_url 2019-10-05-post-title-is-as-post-title-does %}
+      </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Creativity -->
+  
+  <section data-sr id="creativity" class="creativity u-full-width featured-bg-image">
+    <h4 class="centered">
+      <button class="button inverted"><i class="fa fa-twitch" aria-hidden="true"></i>Gå till Twitch</button>
+      <button class="button inverted"><i class="fa fa-youtube-square"></i> Arkiv</button>
+    </h4>
+  </section>
+  
+  <!-- Work -->
+  
+  <section data-sr id="work" class="work u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator">Senaste innehåll</h3>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="one columns">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hMnb7ZOoC0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="eleven columns">
+          <h2>Blog posts</h2>
+          <ul>
+            <li>
+              One
+            </li>
+            <li>
+              Two
+            </li>
+            <li>
+              Three
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+  
+    </div>
+  </section>
+  
+  
+  <!-- About -->
+  
+  <section data-sr id="about" class="about u-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h3 class="separator">About us</h3>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</h4>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="people-list">
+          <li class="three columns people-list-item">
+            <img src="images/people_1.jpg">
+            <div class="people-hover">
+              <a href="#"><i class="fa fa-external-link"></i></a>
+              <div class="people-detail">
+                <h3>JOHN</h3>
+                <p>CEO/Founder</p>
+              </div>
+            </div>
+          </li>
+          <li class="three columns people-list-item">
+            <img src="images/people_2.jpg">
+            <div class="people-hover">
+              <a href="#"><i class="fa fa-external-link"></i></a>
+              <div class="people-detail">
+                <h3>Wiliam</h3>
+                <p>CTO/Founder</p>
+              </div>
+            </div>
+          </li>
+          <li class="three columns people-list-item">
+            <img src="images/people_3.jpg">
+            <div class="people-hover">
+              <a href="#"><i class="fa fa-external-link"></i></a>
+              <div class="people-detail">
+                <h3>Clare</h3>
+                <p>Designer</p>
+              </div>
+            </div>
+          </li>
+          <li class="three columns people-list-item blank-feature">
+            <div class="vertical-centered">
+              <h3 class="separator">WE ARE HIRING</h3>
+              <button class="button">Apply</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- Load the Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+<script type="text/javascript">
+  new Twitch.Embed("twitch-embed", {
+    width: "100%",
+    height: 488,
+    channel: "lunchmednet",
+    theme: "dark"
+  });
+</script>
