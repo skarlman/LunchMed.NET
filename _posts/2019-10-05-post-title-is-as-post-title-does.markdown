@@ -10,8 +10,13 @@ date: 2019-10-06 09:49:59 +0200
 ## Underrubrik
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id cursus erat, sit amet sollicitudin turpis. Suspendisse non lobortis ligula, at gravida felis. Sed ornare molestie tincidunt. Proin dictum egestas mattis. Nulla tempor ante quis sapien bibendum efficitur. Curabitur euismod tincidunt ipsum eu iaculis. Duis libero nunc, ornare nec diam quis, aliquet laoreet felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas facilisis ipsum arcu, at tempus nisl rhoncus nec. Mauris sit amet velit ante. Ut ac semper velit, nec dignissim est. Vivamus sit amet egestas ipsum. Nulla facilisi.
                         
-<pre><code>
-    var something= new klass("apa") { proppen=21};
+<pre><code class="csharp">
+   string text;
+var fileStream = new FileStream(@"c:\file.txt", FileMode.Open, FileAccess.Read);
+using (var streamReader = new StreamReader(fileStream, Encoding.UTF8))
+{
+    text = streamReader.ReadToEnd();
+}
 </code></pre>
 
 ```
