@@ -282,6 +282,7 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #1eaedb;
+  text-decoration: none;
 }
 a:hover {
   color: #1b9cc5;
