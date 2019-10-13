@@ -9,20 +9,38 @@ layout: main
 <section id="hero" class="hero u-full-width">
   
     <div class="hero-image"></div>
-    <div class="container">
-      <div class="one columns u-pull-right">
-        <h3 class="lunchlogo">Lunchmed.NET</h3>
-      </div>
-    </div>
+
+
+
+    <!-- <div class="container">
+    </div> -->
+
     <div class="container centered">
-      <div class="twelve columns">
+
+      <div class="row">
+          <div class="one columns u-pull-right">
+              <h3 class="lunchlogo">Lunchmed.NET</h3>
+            </div>
         
-        <!-- Add a placeholder for the Twitch embed -->
-      <div id="twitch-embed"></div>
-        <!-- <h1 class="separator">Lunchmed.NET</h1>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        Aenean commodo ligula eget dolor. Aenean massa.</h2> -->
       </div>
+      <div class="row">
+          <div class="twelve columns">
+              <iframe src="countdown.html" frameBorder="0" scrolling="no" style="height: 70px; padding-top: 0px; padding-bottom: 0px; width: 100%; overflow:hidden;"></iframe>  
+          </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <div id="twitch-embed"></div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="twelve columns">
+          <h1 style="margin-top:20px;">Varje tisdag 12.05</h2>
+        </div>
+      </div>
+
+
     </div>
   </section>
   
@@ -33,73 +51,48 @@ layout: main
       <div class="row">
         <div class="twelve columns">
           <h3 class="separator">Vad är det här?</h3>
-          <h4>Lunchmed.NET är en fokus på glädjen i kodandet. En jakt efter vad som gjorde att du började med BASIC när du var 12. En uppiggande paus på lunchen.</h4>
-        <p>Varje tisdag lunch sänder jag strax under en timmes kod. Missa det inte, kom igen, det blir kul[tm]!</p>
-         
-        {% post_url 2019-10-05-post-title-is-as-post-title-does %}
+          <h4>Lunchmed.NET är en timmes fokus på glädjen i kodandet - en jakt efter vad som gjorde att du började med BASIC när du var tolv.</h4>
+        <p>Varje tisdag lunch kör vi strax under en timmes kod, sannolikt i .Net och med fokus på nytt och kul.</p>
+        <h3 class="separator"></h3>
+ 
+        <a href="https://www.twitch.tv/lunchmednet" target="_blank"><i class="fa fa-twitch"></i></a>
+        &nbsp;
+        &nbsp;
+
+        <a href="https://www.linkedin.com/in/skarlman/" target="_blank"><i class="fa fa-linkedin"></i></a>
+
       </div>
       </div>
     </div>
   </section>
   
   <!-- Creativity -->
-  
+{% comment %}  
   <section data-sr id="creativity" class="creativity u-full-width featured-bg-image">
     <h4 class="centered">
       <button class="button inverted"><i class="fa fa-twitch" aria-hidden="true"></i>Gå till Twitch</button>
       <button class="button inverted"><i class="fa fa-youtube-square"></i> Arkiv</button>
     </h4>
-  </section>
-  
-  <!-- Work -->
-  
-  <section data-sr id="work" class="work u-full-width">
-    <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-          <h3 class="separator">Senaste innehåll</h3>
-        </div>
-      </div>
-  
-      <div class="row">
-        <div class="one columns">
-        </div>
-        <div class="eleven columns">
-          <h2>Blog posts</h2>
-          <ul>
-            <li>
-              One
-            </li>
-            <li>
-              Two
-            </li>
-            <li>
-              Three
-            </li>
-          </ul>
-        </div>
-      </div>
-  
-  
-    </div>
-  </section>
-  
+  </section>  
   
   <!-- About -->
   
   <section data-sr id="about" class="about u-full-width">
     <div class="container">
       <div class="row">
-        <div class="twelve columns">
-          <h3 class="separator">Om mig</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</h4>
+        <div class="three columns" style="border: 1px solid white;">
+          <img class="vertical-centered" style="width: 197px; height: 197px;" src="{{ '/images/karl.png' | relative_url }}" />
+        </div>
+        <div class="nine columns" style="text-align: left;">
+          <h3 class="separator">Vem är jag?</h3>
+          <h4>Viljan att programmera väcktes någon gång i lågstadiet när jag hade min första dator, Amiga 500. Det blev tyvärr inte så mycket med det - vad kan man förvänta sig av en 7-åring egentligen. Men framåt 1995 hade världen tuffat på, Internet blivit hett (56k-modem var det nya snabba) och jag hade gått över till PC. Stödd av pc-tidningar, några "for dummies"-böcker och ren viljestyrka lärde jag mig själv HTML och började trycka upp hemsidor på dåtidens stora gigant Passagen (de hade en 80(!)gb stor hårddisk i sin server - bara en sån sak). Glädjen fick bara mer bensin på elden och QBasic 4.5 fick stå värd för mina första GOTO-satser (nummerspelet från C64:ans manual går ju bara att inte inte göra). Tiden gnatade på och vägen har vandrat från VB4 till .NET via Python, PHP, Javascript, C, C++, Assembler, MPD(!?) för att nämna några. En civilingengörsexamen i datateknik blev det på köpet. Vägen har svängt igenom såväl flygbokningssystem som bank. En detour om en gnutta psykologi på universitetet samt undervisning på yrkeshögskolan blev det också. Så nu såhär 24 år senare så har jag mer saker att lära mig än någonsin; jag har bara börjat. Så jag ser den här streamen som min chans att utsätta er för alla dumma idéer jag kan komma på att omsätta i kod - en lunch i veckan i taget. </h4>
         </div>
       </div>
       <div class="row">
       </div>
     </div>
   </section>
-
+{% endcomment %}
   
 <!-- Load the Twitch embed script -->
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
