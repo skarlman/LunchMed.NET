@@ -6,34 +6,44 @@ layout: default
       <div class="three columns">
          
           <br><br><br>
-          <img src="{{ '/images/karl.png' | relative_url }}">
+          <a href="{{ '/' | relative_url }}"><img src="{{ '/images/karl.png' | relative_url }}"></a>
           <h5>Karl Tillström</h5>
               
-            <a href="http://twitter.com/lunchmednet" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/LunchmedNet-102652597807761/" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/skarlman/" target="_blank"><i class="fa fa-linkedin"></i></a>
             <div style="margin-top: 20px;">
-                <br><br>
-            
               <ul style="list-style: none;">
                 <li><a href="{{ '/' | relative_url }}">Lunchmed.NET</a></li>
                 <li><a href="{{ '/blog' | relative_url }}">Blogg</a></li>
                 <li><a href="{{ '/blog/arkiv.html' | relative_url }}">Arkiv</a></li>
               </ul>
             </div>
-          
+          <div style="margin-top: 20px;">
+              <a href="https://youtube.com/channel/UCgRHdbaT_Bpf_xAgI_v_GOw" target="_blank"><i class="fa fa-youtube"></i></a>
+              -
+                          <a href="https://twitch.tv/lunchmednet" target="_blank"><i class="fa fa-twitch"></i></a>
+               -
+                          <a href="https://www.linkedin.com/in/skarlman/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                
+          </div>
       </div>
       
       <div class="nine columns blogcontainer u-full-width">
       
-        
+        <div class="row">  
               <h1 class="post-title">{{page.title}}</h1>
               <span class="u-pull-left"><i>{{page.date}}</i></span>  
               <div class="u-cf"></div>  
-              
+              <div style="margin-top:40px;">
               {{content}}
-              
-      </div>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              --<br>
+              Missa inte nästa stream, varje tisdag 12:05 på <a href="https://www.twitch.tv/lunchmednet"><i class="fa fa-twitch"></i>twitch</a><br/>
+              Se tidigare sändningar på <a href="https://youtube.com/channel/UCgRHdbaT_Bpf_xAgI_v_GOw"><i class="fa fa-youtube"></i>YouTube</a>
+            </div>
+          </div>
+          </div>
   
     </div>
   </section>
