@@ -8,7 +8,10 @@ youtubeId: KAuMiTPKhl4
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-I dagens stream klämde och kände vi lite på IAsyncEnumerable från C# 8.0 och Span\<T> från C# 7.2 kryddat med lite Tuple deconstruction. Idén är att bygga en snabb, asynkron och minnessnål CSV-parseare.
+I dagens stream klämde och kände vi lite på **IAsyncEnumerable\<T>** från C# 8.0 och **Span\<T>** från C# 7.2 kryddat med lite Tuple deconstruction. Idén är att bygga en snabb, asynkron och minnessnål CSV-parseare(?).
+
+**GitHub**: https://github.com/skarlman/Lunchmed.Net-CSV-parser
+
 
 ## IAsyncEnumerable<T>
 ```
