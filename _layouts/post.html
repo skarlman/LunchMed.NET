@@ -14,6 +14,7 @@ layout: default
                 <li><a href="{{ '/' | relative_url }}">Lunchmed.NET</a></li>
                 <li><a href="{{ '/blog' | relative_url }}">Blogg</a></li>
                 <li><a href="{{ '/blog/arkiv.html' | relative_url }}">Arkiv</a></li>
+                <li><a href="{{ '/feed.xml' | relative_url }}"><i class="fa fa-rss" aria-hidden="true"></i>RSS</a></li>
               </ul>
             </div>
           <div style="margin-top: 20px;">
@@ -38,9 +39,14 @@ layout: default
           </div>
           <div class="row">
             <div>
-              --<br>
+              --<br/>
               Missa inte nästa stream, varje tisdag 12:05 på <a href="https://www.twitch.tv/lunchmednet"><i class="fa fa-twitch"></i>twitch</a><br/>
               Se tidigare sändningar på <a href="https://youtube.com/channel/UCgRHdbaT_Bpf_xAgI_v_GOw"><i class="fa fa-youtube"></i>YouTube</a>
+            </div>
+
+            <div class="u-pull-right">
+              <br/>
+                <a href="{{ '/feed.xml' | relative_url }}"><i class="fa fa-rss" aria-hidden="true"></i>RSS</a>
             </div>
           </div>
           </div>
