@@ -2,7 +2,8 @@
 layout: post
 title:  "Benchmark CleanCode UnitTest"
 date:   2019-10-22 12:05
-categories: C#8, Stream
+categories: csharp
+tags: c#8 stream benchmarking cleancode dependencyinjection nunit
 youtubeId: t_bBqe-HmxA
 ---
 

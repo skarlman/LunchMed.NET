@@ -2,7 +2,8 @@
 layout: post
 title:  "IAsyncEnumerable och Span<T>"
 date:   2019-10-15 12:05
-categories: C#8, Stream
+categories: csharp
+tags: c#8
 youtubeId: KAuMiTPKhl4
 ---
 
