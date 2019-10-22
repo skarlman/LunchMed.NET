@@ -12,7 +12,7 @@ Berövade av sömn i väntan på upplösningen ger vi oss i kast med att ta reda
 {% include youtubePlayer.html id=page.youtubeId %}
 
 ## BenchmarkDotNET
-Vi använder oss av [https://github.com/dotnet/BenchmarkDotNet](Benchmarkdotnet) för att profilera våra metoder.
+Vi använder oss av [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) för att profilera våra metoder.
 ```
 [RPlotExporter, RankColumn, MemoryDiagnoser]
 public class ParserBenchmarker
