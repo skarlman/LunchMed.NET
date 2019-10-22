@@ -2,13 +2,13 @@
 layout: post
 title:  "IAsyncEnumerable och Span<T>"
 date:   2019-10-15 12:05
-categories: C#8
+categories: C#8, Stream
 youtubeId: KAuMiTPKhl4
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
 I dagens stream klämde och kände vi lite på **IAsyncEnumerable\<T>** från C# 8.0 och **Span\<T>** från C# 7.2 kryddat med lite Tuple deconstruction. Idén är att bygga en snabb, asynkron och minnessnål CSV-parseare(?).
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 **GitHub**: [https://github.com/skarlman/Lunchmed.Net-CSV-parser](https://github.com/skarlman/Lunchmed.Net-CSV-parser)
 
