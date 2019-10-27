@@ -4,7 +4,7 @@ layout: singlepage
 ## Nästa avsnitt: Tisdag 29/10 12:05
 ### [Refaktorering, clean code och testbarhet <i class="fa fa-twitch"></i>](https://www.twitch.tv/lunchmednet)
 
-[![image]({{ site.baseurl }}/images/e2.jpg)](https://www.twitch.tv/lunchmednet)
+[![image]({{ site.baseurl }}/images/e2.jpg){:.u-max-full-width}](https://www.twitch.tv/lunchmednet)
 
 Kul att så många hittade till förra veckans odyssé i refaktorering, testbarhet och benchmarking!
 
