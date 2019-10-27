@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="container u-full-width u-max-full-width" style="padding: 0px;">
     <div class="row"> 
-      <div class="three columns">
+      <aside class="three columns">
          
           <br><br><br>
           <a href="{{ '/' | relative_url }}"><img src="{{ '/images/karl.png' | relative_url }}"></a>
@@ -27,7 +27,7 @@ layout: default
                           <a href="https://www.linkedin.com/in/skarlman/" target="_blank"><i class="fa fa-linkedin"></i></a>
                 
           </div>
-      </div>
+        </aside>
       
       <div class="nine columns blogcontainer u-full-width">
       
@@ -35,9 +35,9 @@ layout: default
               <h1 class="post-title">{{page.title}}</h1>
               <span class="u-pull-left"><i>{{page.date}}</i></span>  
               <div class="u-cf"></div>  
-              <div style="margin-top:40px;">
-              {{content}}
-            </div>
+              <main style="margin-top:40px;">
+                {{content}}
+              </main>
           </div>
           <div class="row">
             <div>
