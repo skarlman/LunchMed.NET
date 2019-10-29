@@ -1,17 +1,19 @@
 ---
 layout: singlepage
 ---
-## Nästa avsnitt: Tisdag 29/10 12:05
-### [Refaktorering, clean code och testbarhet <i class="fa fa-twitch"></i>](https://www.twitch.tv/lunchmednet)
+## Nästa avsnitt: Tisdag 5/11 12:05
+### [Städa tester, lägga till integrationstester och cleaner code <i class="fa fa-twitch"></i>](https://www.twitch.tv/lunchmednet)
 
-[![image]({{ site.baseurl }}/images/e2.jpg){:.u-max-full-width}](https://www.twitch.tv/lunchmednet)
+[![image]({{ site.baseurl }}/images/e3.jpg){:.u-max-full-width}](https://www.twitch.tv/lunchmednet)
 
-Kul att så många hittade till förra veckans odyssé i refaktorering, testbarhet och benchmarking!
+Förra veckan började vi gräva ner oss i gropen som heter tester och mockning. Nästa gång får vi helt enkelt gräva(?) oss ut ur det. 
 
-Stärkta av våra framgångar tar vi på tisdag och nördar ner oss ännu mer i refaktorering, maintainability och clean code (architecture?). Fokus blir på enhetstester, testdatagenerering och mockning. Eller med andra ord; XUnit, AutoFixture och NSubstitute.
+Vi känner att målet om maintainability och kod med produktionskvalitet är inom räckhåll och städar vidare så vi så snart som möjligt kan gå vidare i livet - gräset är alltid grönare etc etc. 
 
-* Kommer XUnit ge NUnit på nöten? 
-* Hur blir det med det däringa filsystemet egentligen?
-* Varför skriver du fortfarande testdatan för hand?
+* Enhetstesterna behöver städas upp och utökas.
+* Integrationstester är fina grejer har jag hört.
+* Koden skall städas färdigt
+
+Kommer vi hinna fram till vår sista del - Clean Architecture? 
 
 ## [Missa inte den spännande upplösningen på tisdag 12:05!](https://www.twitch.tv/lunchmednet)
