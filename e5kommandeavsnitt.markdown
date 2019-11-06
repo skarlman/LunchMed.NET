@@ -19,3 +19,4 @@ Nu går vi i mål med det sista temat - Clean architecture!
 Vi sockrar med lite annat smått och gott - hur fipplar man in .net cores dependency injection-ramverk t.ex.?
 
 ## [Missa inte den spännande upplösningen på tisdag 12:05!](https://www.twitch.tv/lunchmednet)
+
