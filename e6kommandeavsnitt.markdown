@@ -2,7 +2,7 @@
 layout: singlepage
 ---
 ## Nästa avsnitt: Tisdag 19/11 12:05
-### [Bring back Clippy! <i class="fa fa-twitch"></i>](https://www.twitch.tv/lunchmednet)
+### [Kolla Live! <i class="fa fa-twitch"></i>](https://www.twitch.tv/lunchmednet)
 
 [![Parprogrammering med ett gem]({{ site.baseurl }}/images/e6.jpg "Parprogrammering med ett gem"){:.u-max-full-width}](https://www.twitch.tv/lunchmednet)
 
