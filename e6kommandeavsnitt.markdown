@@ -6,10 +6,10 @@ layout: singlepage
 
 [![Parprogrammering med ett gem]({{ site.baseurl }}/images/e6.jpg "Parprogrammering med ett gem"){:.u-max-full-width}](https://www.twitch.tv/lunchmednet)
 
-# Få Boten Arne att leva!
-Sist påbörjade vi projekt BigBrother - taligenkänning åt vår efterlängtade sidekick Boten Arne. Vi kom så långt att BigBrother lyckas plocka ut vad jag säger - men inte riktigt få iväg det hela vägen fram till Arne. 
+# Få in taligenkänningen
+Sist fick vi igång ett litet projekt som lyssnar på vad jag dravlar om och skriver ut det som subtitles på skärmen.
 
-Nästa steg: få gemet att reagera på taligenkänningen! Vi kopplar ihop BigBrother med Arne hela vägen.
+Nästa steg: Mata gemet med texten och få det att reagera på saker som sägs!
 
 ## [Kolla in på en stream nära dig - tisdag 12:05!](https://www.twitch.tv/lunchmednet)
 
