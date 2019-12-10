@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Boten Arne"
+title:  "Azure cognitive services"
 date:   2019-12-03 12:05
 categories: arne
 tags: c#8 stream signalr aspnetcore azure
