@@ -1,0 +1,34 @@
+#subtitleText {
+    font-size: larger;
+  }
+  #subtitleDiv {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px dashed grey;
+    border-radius: 10px;
+  }
+
+  .actionImage:hover {
+    border: 2px dashed salmon;
+    cursor: pointer;
+  }
+  .actionImage {
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+  }
+  #clippyActionsContainer {
+    padding: 15px;
+    background-color: #efefef;
+    border-radius: 10px;
+  }
+
+  #spinner {
+    display: block;
+    margin: auto;
+  }
+
+  .centerDiv {
+    display: block;
+    margin: auto;
+  }

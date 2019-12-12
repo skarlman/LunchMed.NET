@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="se">
+  <head>
+
+    <meta charset="utf-8" />
+    <title>Träna AI-gemet!</title>
+    <meta
+      name="description"
+      content="Machine learning för Clippy - hjälp till att träna upp gemet att självt reagera på taligenkänning."
+    />
+    <meta name="author" content="https://Lunchmed.Net" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="css/clippytrainer.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/clippy.css" media="all" />
+    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/font-awesome.min.css"
+      media="all"
+    />
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 5%;">
+          <div class="row">
+            <div class="twelve columns">
+              <h1>AI-Gem-tränaren!</h1>
+              <p>
+                Hjälp till att träna upp gemet med machine learning!<br />
+                Clippy var ju allas fröjd och favorit på det glada 90-talet. Men
+                vart tog det vägen sen!? Varför försvann det? Jo! Det saknade AI
+                så klart!
+              </p>
+              <p>
+                Vi har fulhackat in Clippy rakt in i vår livestream och fått det
+                att reagera på vad som sägs i "realtid". <br /><strong
+                  >Nu behöver vi din hjälp att träna upp det på vad det faktiskt
+                  skall göra!</strong
+                >
+                <a target="_blank" href="https://lunchmed.net/botenarne.html"
+                  >[Läs mer här]</a
+                >
+              </p>
+
+              <hr />
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one-half column">
+          <div class="row">
+            <div class="twelve columns">
+              <div class="row">
+                <div class="twelve columns">
+                  <h4>
+                    1) Auto-tolkad text
+                    <i
+                      class="fa fa-info-circle"
+                      title="Speech to text tolkat av Azure cognitive services (out of the box) på ett tidigare avsnitt"
+                    ></i>
+                  </h4>
+                </div>
+              </div>
+              <div class="row" id="subtitleDiv">
+                <div class="u-pull-right">
+                  <button onclick="LoadNewSubtitle()">
+                    <i class="fa fa-refresh"></i>
+                  </button>
+                </div>
+
+                <i class="fa fa-quote-left"></i>
+
+                <blockquote id="subtitleText">Laddar....</blockquote>
+                <img src="images/spinner.gif" id="spinner" />
+                <i class="fa fa-quote-right" style="float: right;"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="twelve columns">
+              <h4>
+                2) Ska trigga Gem-Action:
+                <i
+                  class="fa fa-info-circle"
+                  title="Klicka helt enkelt på den action du tycker blir roligast, that's it!"
+                ></i>
+              </h4>
+            </div>
+          </div>
+
+          <div class="row" id="clippyActionsContainer">
+            <div id="clippyActionsDiv" class="twelve columns">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="u-pull-right">
+              <h6 class=""><span id="sentActions">0</span> gem skickade!</h6>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="twelve columns">
+              <h4>3) Profit!</h4>
+              (nej ok, repetera. Vi behöver massvis med träningsdata
+              <i class="fa fa-smile-o"></i>)
+            </div>
+          </div>
+        </div>
+
+        <div class="one-half column">
+          <div class="row">
+            <div class="five columns">
+              <button onclick="showOnYoutube()" class="button-primary">
+                <i class="fa fa-play"></i> Spela denna del
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="twelve columns">
+              <div class="u-max-full-width" id="player"></div>
+            </div>
+            <div class="u-pull-right">
+              <h6 style="margin-top: 10px;">
+                (<i class="fa fa-youtube"></i>&nbsp;<a
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UCgRHdbaT_Bpf_xAgI_v_GOw"
+                  >Se alla avsnitt</a
+                >)
+              </h6>
+            </div>
+          </div>
+
+          <div class="row" style="padding:40px;">
+            <div class="eight columns">
+              <h5>Lura med alla dina kompisar! #komigendetblirkul</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <hr />
+          <h5>
+            <i class="fa fa-tree"></i>) Resultatet
+            <a href="https://twitch.tv/lunchmednet" target="_blank"
+              >sänds <strong>live</strong> på Julafton 12:05</a
+            >
+            <a href="https://twitch.tv/lunchmednet" target="_blank"
+              ><i class="fa fa-twitch"></i
+            ></a>
+          </h5>
+          (klicka på <strong>"<i class="fa fa-heart-o"></i> Följ"</strong> för
+          att vara säker på att du inte missar det)
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" style="padding: 20px;">
+      <div class="row">
+        <div class="twelve columns">
+          <br /><br /><br /><br />
+          <hr />
+          <ul>
+            <li>
+              Clippy-JS från <a href="https://www.smore.com/clippy-js">Smore</a>
+            </li>
+            <li>
+              Mer info:
+              <a href="https://lunchmed.net" target="_blank"
+                >www.lunchmed.net</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+
+  <script src="js/data.js"></script>
+  <script src="js/clippyTrainer.js"></script>
+  <script src="js/jquery-1.7.min.js"></script>
+  <script src="js/clippy.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#spinner").hide();
+      setupActions();
+      LoadClippy();
+    });
+  </script>
+</html>
