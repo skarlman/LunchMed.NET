@@ -11,5 +11,9 @@ Gemet går att styra med både taligenkänning och chatkommandon. Dags att det l
 
 Next up: Få till machine learning
 
+## Hjälp till att träna gemet!
+Glöm gymträning, för 2020 är det gemträning som gäller!
+[Gå in här och kör loss]({{ site.baseurl }}/ClippyTrainer)
+
 ## [Kolla in på en stream nära dig - tisdag 12:05!](https://www.twitch.tv/lunchmednet)
 

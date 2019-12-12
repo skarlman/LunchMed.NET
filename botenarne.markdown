@@ -55,6 +55,7 @@ Detta behöver göras massvis med gånger för att skrapa ihop tillräckligt med
 Julafton 12:05 på [Twitch](https://twitch.tv/lunchmednet)
 (klicka i "Följ" för att inte riskera att missa det)
 
+Kom in i gemenskapen, gå med i [Facebookgruppen](https://www.facebook.com/groups/499213487352874)!
 
 
 # #Komigendetblirkul
